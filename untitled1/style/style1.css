@@ -1,0 +1,760 @@
+*{
+    box-sizing: border-box;
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, dl, dt, dd,
+ol, ul, li, form, table, caption, tr, th, td, article, aside, footer, header{
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+#header{
+    background-color: #eee;
+}
+#header h1{
+    font-size: 1.3em;
+    padding: 15px;
+}
+#nav{
+    background-color: #f4f4f4;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+#nav ul{
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+#nav li {
+    float: left;
+}
+#nav ul a {
+    display: block;
+    width: 7em;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+#nav ul li:last-child a {
+
+    border-right: 1px solid #ccc;
+}
+#nav ul a:hover{
+    background-color: #230808;
+    color: #f4f4f4;
+}
+#nav ul:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+.vk{
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    z-index: 1;
+}
+.ds{
+    position: absolute;
+    top: 4%;
+    left: 20%;
+    z-index: 1;
+}
+.tg{
+    position: absolute;
+    top: 4%;
+    left: 15%;
+    z-index: 1;
+}
+.tw{
+    position: absolute;
+    top: 4%;
+    left: 25%;
+    z-index: 1;
+}
+.yt{
+    position: absolute;
+    top: 4%;
+    left: 30%;
+    z-index: 1;
+}
+.main-button{
+    position: fixed;
+    top: 1%;
+    left: 1%;
+    z-index: 1;
+}
+.spisok{
+    position: absolute;
+    top: 4%;
+    left: 35%;
+    z-index: 1;
+}
+.license{
+    position: absolute;
+    top: 400%;
+    left: 0%;
+    z-index: 1;
+    border: 2px solid red;
+}
+body{
+    background-color: #b8a084;
+}
+.vcard1{
+    position: absolute;
+    top: 25%;
+    left: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.vcard2{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.vcard3{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.vcard4{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.vcard5{
+    position: absolute;
+    top: 25%;
+    left: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.fcard1{
+    position: absolute;
+    top: 75%;
+    left: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.fcard2{
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.fcard3{
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.fcard4{
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.fcard5{
+    position: absolute;
+    top: 75%;
+    left: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.kcard1{
+    position: absolute;
+    top: 125%;
+    left: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.kcard2{
+    position: absolute;
+    top: 125%;
+    left: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.kcard3{
+    position: absolute;
+    top: 125%;
+    left: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.kcard4{
+    position: absolute;
+    top: 125%;
+    left: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.kcard5{
+    position: absolute;
+    top: 125%;
+    left: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.hcard1{
+    position: absolute;
+    top: 175%;
+    left: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.hcard2{
+    position: absolute;
+    top: 175%;
+    left: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.hcard3{
+    position: absolute;
+    top: 175%;
+    left: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.hcard4{
+    position: absolute;
+    top: 175%;
+    left: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.hcard5{
+    position: absolute;
+    top: 175%;
+    left: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.tcard1{
+    position: absolute;
+    top: 225%;
+    left: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.tcard2{
+    position: absolute;
+    top: 225%;
+    left: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.tcard3{
+    position: absolute;
+    top: 225%;
+    left: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.tcard4{
+    position: absolute;
+    top: 225%;
+    left: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.tcard5{
+    position: absolute;
+    top: 225%;
+    left: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.price{
+    color: #1d0fb8;
+    font-size: 22px;
+}
+.vcard1 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.vcard1 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.vcard2 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.vcard2 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.vcard3 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.vcard3 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.vcard4 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.vcard4 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.vcard5 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.vcard5 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.fcard1 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.fcard1 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.fcard2 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.fcard2 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.fcard3 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.fcard3 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.fcard4 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.fcard4 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.fcard5 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.fcard5 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.kcard1 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.kcard1 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.kcard2 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.kcard2 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.kcard3 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.kcard3 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.kcard4 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.kcard4 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.kcard5 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.kcard5 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.hcard1 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.hcard1 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.hcard2 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.hcard2 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.hcard3 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.hcard3 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.hcard4 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.hcard4 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.hcard5 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.hcard5 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.tcard1 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.tcard1 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.tcard2 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.tcard2 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.tcard3 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.tcard3 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.tcard4 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.tcard4 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
+.tcard5 button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.tcard5 button:hover{
+    transform: scale(1.05);
+    background-color: #1e56ae;
+    color: white;
+}
