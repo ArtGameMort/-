@@ -1,0 +1,14 @@
+body{
+    background-color: #acb886;
+}
+.back button{
+    position: absolute;
+    top: 110%;
+    left: 86%;
+    color: #03A9F4;
+    background-color: #b87c6e;
+}
+.back button:hover{
+    transform: scale(1.07);
+    background-color: #230808;
+}
