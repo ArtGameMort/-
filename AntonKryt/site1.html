@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Artem Semenov">
+    <meta name="description" content="Магазин по продаже авто">
+    <link rel="stylesheet" href="style/style1.css">
+    <title>Autostop</title>
+</head>
+<body>
+<div id="header">
+    <h1><img id="card" src="./img/icons8-автомобиль-100.png" onclick="top.location.href='http://localhost:63342/untitled1/site1.html?_ijt=5lf2tvmh0gt03vo1487of1oie1'">Арендаавто Autostop</h1>
+    <div id="nav">
+        <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </div>
+</div>
+<div>
+    <img class="vk" src="./img/icons8-vk-20.png" onclick="openLinkInNewTab('https://vk.com/kuplinovplay');">
+    <img class="ds" src="./img/icons8-discord-20.png" onclick="openLinkInNewTab('https://discord.com');">
+    <img class="tg" src="./img/icons8-телеграмма-app-20.png" onclick="openLinkInNewTab('https://web.telegram.org/a/');">
+    <img class="tw" src="./img/icons8-twitch-20.png" onclick="openLinkInNewTab('https://www.twitch.tv');">
+    <img class="yt" src="./img/icons8-vk-30.png" onclick="openLinkInNewTab('https://www.youtube.com/@MrMarmok');">
+</div>
+<div class="car">
+    <details class="spisok">
+        <summary>Модели</summary>
+        <ul>
+            <li><details class="Volkswagen">
+                <summary>Volkswagen</summary>
+                <ul style="list-style-image: url('img/1v.png')">
+                    <li><button id="vcar1" onclick="location.href='cars/volkswagen/vcar1.html'">Volkswagen Jetta</button></li>
+                    <li><button id="vcar2" onclick="location.href='cars/volkswagen/vcar2.html'">Volkswagen Passat</button></li>
+                    <li><button id="vcar3" onclick="location.href='cars/volkswagen/vcar3.html'">Volkswagen Touareg</button></li>
+                    <li><button id="vcar4" onclick="location.href='cars/volkswagen/vcar4.html'">Volkswagen Tiguan</button></li>
+                    <li><button id="vcar5" onclick="location.href='cars/volkswagen/vcar5.html'">Volkswagen Scirocco</button></li>
+                </ul>
+            </details></li>
+            <li><details class="Toyota">
+                <summary>Toyota</summary>
+                <ul style="list-style-image: url('img/0.png')">
+                    <li><button id="tcar1" onclick="location.href='cars/toyota/tcar1.html'">Toyota Camry</button></li>
+                    <li><button id="tcar2" onclick="location.href='cars/toyota/tcar2.html'">Toyota RAV4</button></li>
+                    <li><button id="tcar3" onclick="location.href='cars/toyota/tcar3.html'">Toyota Venza</button></li>
+                    <li><button id="tcar4" onclick="location.href='cars/toyota/tcar4.html'">Toyota Prius</button></li>
+                    <li><button id="tcar5" onclick="location.href='cars/toyota/tcar5.html'">Toyota Auris</button></li>
+                </ul>
+            </details></li>
+            <li><details class="Kia">
+                <summary>Kia</summary>
+                <ul style="list-style-image: url('img/1k.png')">
+                    <li><button id="kcar1" onclick="location.href='cars/kia/kcar1.html'">Kia Stinger</button></li>
+                    <li><button id="kcar2" onclick="location.href='cars/kia/kcar2.html'">Kia XCeed</button></li>
+                    <li><button id="kcar3" onclick="location.href='cars/kia/kcar3.html'">Kia Rio</button></li>
+                    <li><button id="kcar4" onclick="location.href='cars/kia/kcar4.html'">Kia Sportage</button></li>
+                    <li><button id="kcar5" onclick="location.href='cars/kia/kcar5.html'">Kia Cerato</button></li>
+                </ul>
+            </details></li>
+            <li><details class="Hyundai">
+                <summary>Hyundai</summary>
+                <ul style="list-style-image: url('img/1h.png')">
+                    <li><button id="hcar1" onclick="location.href='cars/hyundai/hcar1.html'">Hyundai Elantra</button></li>
+                    <li><button id="hcar2" onclick="location.href='cars/hyundai/hcar2.html'">Hyundai Sonata</button></li>
+                    <li><button id="hcar3" onclick="location.href='cars/hyundai/hcar3.html'">Hyundai Solaris</button></li>
+                    <li><button id="hcar4" onclick="location.href='cars/hyundai/hcar4.html'">Hyundai Grandeur</button></li>
+                    <li><button id="hcar5" onclick="location.href='cars/hyundai/hcar5.html'">Hyundai i30</button></li>
+                </ul>
+            </details></li>
+            <li><details class="Ford">
+                <summary>Ford</summary>
+                <ul style="list-style-image:url('img/1f.png');">
+                    <li><button id="fcar1" onclick="location.href='cars/ford/fcar1.html'">Ford GT</button></li>
+                    <li><button id="fcar2" onclick="location.href='cars/ford/fcar2.html'">Ford Focus</button></li>
+                    <li><button id="fcar3" onclick="location.href='cars/ford/fcar3.html'">Ford Mustang</button></li>
+                    <li><button id="fcar4" onclick="location.href='cars/ford/fcar4.html'">Ford Taurus</button></li>
+                    <li><button id="fcar5" onclick="location.href='cars/ford/fcar5.html'">Ford Fusion</button></li>
+                </ul>
+            </details></li>
+        </ul>
+    </details>
+</div>
+<div class="Ford">
+    <h1 class="For">Ford</h1>
+    <div class="fcard1">
+        <img src="img/1.jpg" alt="Ford GT" width="290" height="250">
+        <h1>Ford GT</h1>
+        <p class="price">от 16 150 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/ford/fcar1.html'">Подробнее</button></p>
+    </div>
+    <div class="fcard2">
+        <img src="img/2.jpg" alt="Ford Focus" width="290" height="250">
+        <h1>Ford Focus</h1>
+        <p class="price">от 630 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/ford/fcar2.html'">Подробнее</button></p>
+    </div>
+    <div class="fcard3">
+        <img src="img/3.jpg" alt="Ford Mustang" width="290" height="250">
+        <h1>Ford Mustang</h1>
+        <p class="price">от 2 510 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/ford/fcar3.html'">Подробнее</button></p>
+    </div>
+    <div class="fcard4">
+        <img src="img/5.jpg" alt="Ford Taurus" width="290" height="250">
+        <h1>Ford Taurus</h1>
+        <p class="price">от 270 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/ford/fcar4.html'">Подробнее</button></p>
+    </div>
+    <div class="fcard5">
+        <img src="img/68.jpg" alt="Ford Fusion" width="290" height="250">
+        <h1>Ford Fusion</h1>
+        <p class="price">от 525 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/ford/fcar5.html'">Подробнее</button></p>
+    </div>
+</div>
+<div class="Toyota">
+    <h1 class="Toy">Toyota</h1>
+    <div class="tcard1">
+        <img src="img/Camry.jpg" alt="Toyota Camry" width="290" height="250">
+        <h1>Toyota Camry</h1>
+        <p class="price">от 16 150 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/toyota/tcar1.html'">Подробнее</button></p>
+    </div>
+    <div class="tcard2">
+        <img src="img/RAV4.jpg" alt="Toyota RAV4" width="290" height="250">
+        <h1>Toyota RAV4</h1>
+        <p class="price">от 630 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/toyota/tcar2.html'">Подробнее</button></p>
+    </div>
+    <div class="tcard3">
+        <img src="img/Venza.jpg" alt="Toyota Venza" width="290" height="250">
+        <h1>Toyota Venza</h1>
+        <p class="price">от 2 510 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/toyota/tcar3.html'">Подробнее</button></p>
+    </div>
+    <div class="tcard4">
+        <img src="img/Prius.jpg" alt="Toyota Prius" width="290" height="250">
+        <h1>Toyota Prius</h1>
+        <p class="price">от 270 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/toyota/tcar4.html'">Подробнее</button></p>
+    </div>
+    <div class="tcard5">
+        <img src="img/Auris.jpg" alt="Toyota Auris" width="290" height="250">
+        <h1>Toyota Auris</h1>
+        <p class="price">от 525 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/toyota/tcar5.html'">Подробнее</button></p>
+    </div>
+</div>
+<div class="Kia">
+    <h1 class="Ki">Kia</h1>
+    <div class="kcard1">
+        <img src="img/Stinger.jpg" alt="Kia Stinger" width="290" height="250">
+        <h1>Kia Stinger</h1>
+        <p class="price">от 16 150 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/kia/kcar1.html'">Подробнее</button></p>
+    </div>
+    <div class="kcard2">
+        <img src="img/XCeed.jpg" alt="Kia XCeed" width="290" height="250">
+        <h1>Kia XCeed</h1>
+        <p class="price">от 630 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/kia/kcar2.html'">Подробнее</button></p>
+    </div>
+    <div class="kcard3">
+        <img src="img/Rio.jpg" alt="Kia Rio" width="290" height="250">
+        <h1>Kia Rio</h1>
+        <p class="price">от 2 510 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/kia/kcar3.html'">Подробнее</button></p>
+    </div>
+    <div class="kcard4">
+        <img src="img/Sportage.jpg" alt="Kia Sportage" width="290" height="250">
+        <h1>Kia Sportage</h1>
+        <p class="price">от 270 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/kia/kcar4.html'">Подробнее</button></p>
+    </div>
+    <div class="kcard5">
+        <img src="img/Cerato.jpg" alt="Kia Cerato" width="290" height="250">
+        <h1>Kia Cerato</h1>
+        <p class="price">от 525 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/kia/kcar5.html'">Подробнее</button></p>
+    </div>
+</div>
+<div class="Hyundai">
+    <h1 class="Hyu">Hyundai</h1>
+    <div class="hcard1">
+        <img src="img/Elantra.jpg" alt="Hyundai Elantra" width="290" height="250">
+        <h1>Hyundai Elantra</h1>
+        <p class="price">от 16 150 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/hyundai/hcar1.html'">Подробнее</button></p>
+    </div>
+    <div class="hcard2">
+        <img src="img/sonata.jpg" alt="Hyundai Sonata" width="290" height="250">
+        <h1>Hyundai Sonata</h1>
+        <p class="price">от 630 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/hyundai/hcar2.html'">Подробнее</button></p>
+    </div>
+    <div class="hcard3">
+        <img src="img/Solaris.jpg" alt="Hyundai Solaris" width="290" height="250">
+        <h1>Hyundai Solaris</h1>
+        <p class="price">от 2 510 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/hyundai/hcar3.html'">Подробнее</button></p>
+    </div>
+    <div class="hcard4">
+        <img src="img/Grandeur.jpg" alt="Hyundai Grandeur" width="290" height="250">
+        <h1>Hyundai Grandeur</h1>
+        <p class="price">от 270 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/hyundai/hcar4.html'">Подробнее</button></p>
+    </div>
+    <div class="hcard5">
+        <img src="img/i30.jpg" alt="Hyundai i30" width="290" height="250">
+        <h1>Hyundai i30</h1>
+        <p class="price">от 525 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/hyundai/hcar5.html'">Подробнее</button></p>
+    </div>
+</div>
+<div class="Volkswagen">
+    <h1 class="Vol">Volkswagen</h1>
+    <div class="Vo"></div>
+    <div class="vcard1">
+        <img src="img/123.jpg" alt="Volkswagen Jetta" width="290" height="250">
+        <h1>Volkswagen Jetta</h1>
+        <p class="price">от 16 150 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/volkswagen/vcar1.html'">Подробнее</button></p>
+    </div>
+    <div class="vcard2">
+        <img src="img/12345.jpg" alt="Volkswagen Passat" width="290" height="250">
+        <h1>Volkswagen Passat</h1>
+        <p class="price">от 630 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/volkswagen/vcar2.html'">Подробнее</button></p>
+    </div>
+    <div class="vcard3">
+        <img src="img/123456.jpg" alt="Volkswagen Touareg" width="290" height="250">
+        <h1>Volkswagen Touareg</h1>
+        <p class="price">от 2 510 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/volkswagen/vcar3.html'">Подробнее</button></p>
+    </div>
+    <div class="vcard4">
+        <img src="img/213.jpg" alt="Volkswagen Tiguan" width="290" height="250">
+        <h1>Volkswagen Tiguan</h1>
+        <p class="price">от 270 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/volkswagen/vcar4.html'">Подробнее</button></p>
+    </div>
+    <div class="vcard5">
+        <img src="img/4.jpg" alt="Volkswagen Scirocco" width="290" height="250">
+        <h1>Volkswagen Scirocco</h1>
+        <p class="price">от 525 000 ₽</p>
+        <p>Something Text</p>
+        <p><button onclick="location.href='cars/volkswagen/vcar5.html'">Подробнее</button></p>
+    </div>
+</div>
+<script src="Parta2.js">
+
+</script>
+<footer class="license">
+    <p><a href="/license.html">Пользовательское соглашение</a> |
+        <a href="/about">О сайте</a> |
+        <a href="https://www.donationalerts.com/r/terriblewhite">Donations</a></p>
+    <address>
+        Контакты для связи <a href="ArtGameMort@yandex.ru">Помощь</a>.
+    </address>
+    <p><small>© Copyright 2016 Company Autostop.</small></p>
+</footer>
+</body>
+</html>
